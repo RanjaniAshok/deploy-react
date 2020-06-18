@@ -14,7 +14,7 @@ import {
   Switch,
 } from "react-router-dom";
 const App = () => (
- <Router history={history}>
+ <Router history={history} basename="build" >
   <Switch>
   <Route exact path="/" component={Blogs}/>
   <PublicRoute  exact path="/SignUp" component={SignUp}/>
