@@ -1,0 +1,30 @@
+
+*{
+font-family: PingFangSC-Regular;
+font-weight: 500;
+}
+.header {
+    background-color: #007bec;
+    color: #fff;
+    height: 65px;
+
+}
+.search{
+    background-color: dimgrey;
+}
+
+.menuTitle{
+    font-size:20px;
+    font-weight: 600;
+}
+.blogIcon{
+    font-size:25px;
+    color:#007bec;
+    background-color:#fff;
+     border-radius:5px 5px 10px 0px;
+
+}
+.login-form-button{
+    float:right;
+    margin-left: 5px;
+}

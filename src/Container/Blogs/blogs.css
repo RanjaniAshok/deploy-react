@@ -1,0 +1,54 @@
+.ant-layout-sider{
+    min-width:100% !important;
+}
+.demo-infinite-container {
+  border: 2px solid #e8e8e8;
+  border-radius: 4px;
+  overflow-y:  auto;
+  overflow-x: hidden;
+  width: 100%;
+  height: 550px;
+}
+.demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+.topBar{
+  margin-left: 10px;
+}
+.SignIn_Button{
+  margin-left: 10px;
+  background-color: #fff;
+}
+.clapsButton{
+  font-size: 16px;
+
+}
+.postDescription{
+  font-weight: bolder;
+}
+.edit_hover_class a{
+  visibility:hidden;
+
+}
+.edit_hover_class:hover a {
+ visibility:visible;
+}
+.commentText{
+  border:0;
+  overflow: hidden;
+  resize: none;
+  background-color: #fff !important;
+  color:#000 !important;
+}
+.commentList{
+  margin-left: 5px;
+}
+.formUpload{
+ display: inline-flex;
+}
+.onLikeHover:hover{
+
+}

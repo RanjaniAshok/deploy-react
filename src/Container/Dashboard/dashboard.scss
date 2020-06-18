@@ -1,0 +1,31 @@
+
+*{
+font-family: PingFangSC-Regular;
+font-weight: 500;
+}
+#root,body,.ant-row-flex,.ant-layout,.bg-image,.postList{
+    height: 100%;
+
+}
+.form-content{
+  margin-bottom:20px;
+}
+.menuTitle{
+    font-size:20px;
+    font-weight: 600;
+}
+.login-form-button{
+    float:right;
+    margin-left: 5px;
+}
+
+.delete-button{
+    float:right;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.postContent{
+    height:100%;
+    margin-top: 30px;
+    margin-bottom:111px;
+}

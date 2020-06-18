@@ -1,0 +1,11 @@
+#root,body,.ant-row-flex,.ant-layout,.bg-image{
+    height: 100%;
+}
+.imgBox{
+    background-image: url("./image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 100%;
+}
+  

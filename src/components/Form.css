@@ -1,0 +1,15 @@
+.login-form-forgot {
+    float: right;
+  }
+  .ant-form-item{
+      margin-bottom: 0!important;
+  }
+  .ant-form-item-required{
+    font-family: PingFangSC;
+    font-size: 16px;
+  }
+ .form-item-button{
+     display: flex;
+     justify-content: center;
+     margin-top: 10px !important;
+ }
