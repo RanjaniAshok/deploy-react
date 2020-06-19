@@ -23,7 +23,7 @@ class TableData extends React.Component{
                     sorter:(a,b)=> a.title.length - b.title.length,
                     ellipsis:true,
                     key: 'name',
-                    render: (text,record)=> <Link to = {`dashboard/post/${record.objectId}`}>{text}</Link>
+                    render: (text,record)=> <Link to = {`post/${record.objectId}`}>{text}</Link>
                   
                   },
                   {

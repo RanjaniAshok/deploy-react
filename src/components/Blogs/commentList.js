@@ -22,7 +22,7 @@ class CommentList extends React.Component {
           header={`${postComments.length} ${postComments.length > 1 ? 'replies' : 'reply'}`}
           itemLayout="horizontal"
           renderItem={item => 
-           <List.Item  className="edit_hover_class"
+           <List.Item
                   actions={item.author===user && loggedIn ?
                    [
                    <span className="onHover"><Icon type="edit" theme="outlined" style={{color:'#007bec'}} 

@@ -45,13 +45,6 @@
   }
 }
 
-.edit_hover_class .onHover{
-  @include theme-colors($visiblity: true);
-
-}
-.edit_hover_class:hover .onHover {
-  @include theme-colors($visiblity: false);
-}
 .commentText{
   border:0;
   overflow: hidden;

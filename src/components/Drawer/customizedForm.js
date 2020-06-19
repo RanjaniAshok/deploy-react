@@ -84,7 +84,7 @@ const  handleSubmit = e => {
                                    <Form.Item label="Content" colon={false} >
                                   {getFieldDecorator('content', {
                                 
-                                      rules: [{ required: true, message: 'Please fill out this field',  min:40, }],
+                                      rules: [{ required: true, message: 'Please fill out this field with min of 40 symbols and max of 500 symbols',  min:40,max:500 }],
                                     })( <TextArea rows={4} />)}
                                     </Form.Item>
                                     <div className="drawerButton">
