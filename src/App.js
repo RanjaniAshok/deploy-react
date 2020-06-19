@@ -19,9 +19,9 @@ const App = () => (
   <Route exact path="/" component={Blogs}/>
   <PublicRoute  exact path="/SignUp" component={SignUp}/>
   <PublicRoute  exact path="/SignIn" component={SignIn} />
-  <PrivateRoute  exact path="/dashboard" component={Dashboard}/>
+  <PrivateRoute  exact path="/blogs" component={Dashboard}/>
   <PrivateRoute exact path="/post/:id" component={Post} />
-   {<PrivateRoute exact path="/blogs" component={Blogs} />}
+   {<PrivateRoute exact path="/dashboard" component={Blogs} />}
    </Switch>
    </Router>
 );

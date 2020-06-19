@@ -11,9 +11,15 @@ class TopBar extends React.Component{
         super(props);
         this.state = {
             email:'',
-            selected:''
+           current:'home'
             }
-            };    
+            };
+    handleClick = e => {
+        console.log('click ', e);
+        this.setState({
+            current: e.key,
+        });
+    };
     render(){
     const {user,loggedIn}=this.props
         return(
@@ -26,9 +32,10 @@ class TopBar extends React.Component{
                             <Col xs={{span:12 }}>
                                 <Row type="flex" justify="center">
                                         <Menu theme="light" mode="horizontal"
+                                              onClick={this.handleClick}
                                             style={{ backgroundColor:'#007bec',color:'#fff' }} >
-                                            <Menu.Item key="2"> <Link to="/blogs" style={{color:"#fff"}}>Home</Link></Menu.Item>
-                                         <Menu.Item key="1"><Link to="/dashboard" style={{color:"#fff"}}>Pencil Your Own Blogs</Link></Menu.Item>
+                                            <Menu.Item key="home"> <Link to="/dashboard" style={{color:"#fff"}}>Home</Link></Menu.Item>
+                                         <Menu.Item key="blogs"><Link to="/blogs" style={{color:"#fff"}}>Pencil Your Own Blogs</Link></Menu.Item>
 
                                         </Menu>
                                 </Row>
